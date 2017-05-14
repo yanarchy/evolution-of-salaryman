@@ -1,0 +1,21 @@
+{
+  "name": "Evolution of the Salaryman",
+  "version": "1.0.0",
+  "description": "Code Chrysalis ES6 Classes",
+  "author": "Yan Fan <yan@codechrysalis.io>",
+  "scripts": {
+    "test": "mocha --require babel-core/register --bail"
+  },
+  "private": true,
+  "babel": {
+    "presets": [
+      "es2015"
+    ]
+  },
+  "devDependencies": {
+    "babel-core": "^6.3.17",
+    "babel-preset-es2015": "^6.3.13",
+    "chai": "^3.4.1",
+    "mocha": "^2.3.4"
+  }
+}

@@ -1,0 +1,47 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+  <title>Code Chrysalis ES6 Classes</title>
+  <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+  <script src="https://unpkg.com/babel-standalone@6/babel.min.js"></script>
+  <link rel="stylesheet" href="lib/css/mocha.css" />
+  <script src="lib/jquery.js"></script>
+  <script src="lib/expect.js"></script>
+  <script src="lib/mocha.js"></script>
+  <script src="lib/sinon.js"></script>
+  <script src="lib/picomodal.js"></script>
+  <script src="lib/tweet.js"></script>
+  <script>
+    mocha.setup('bdd');
+  </script>
+
+  <!-- All of our salarymen here -->
+  <script src="src/Student.js"></script>
+  <script src="src/Shinsotsu.js"></script>
+  <script src="src/BossSalaryMan.js"></script>
+  <script src="src/WorkerSalaryMan.js"></script>
+  <script src="src/RetiredWorkerSalaryMan.js"></script>
+
+  <!-- All of our tests here -->
+  <script src="specs/_Student.js"></script>
+  <script src="specs/_Shinsotsu.js"></script>
+  <script src="specs/_BossSalaryMan.js"></script>
+  <script src="specs/_WorkerSalaryMan.js"></script>
+  <script src="specs/_RetiredWorkerSalaryMan.js"></script>
+  <script>
+
+  // This just sets up and runs the tests. We use mocha and chai here and you can ignore these for now.
+    onload = function(){
+      var runner = window.mochaPhantomJS ? mochaPhantomJS.run() : mocha.run();
+      runner.on('end', function() {
+        if(!this.failures){
+          window.tweet();
+        }
+      });
+    };
+  </script>
+</head>
+<body>
+  <div id="mocha"></div>
+</body>
+</html>
