@@ -90,5 +90,6 @@ Please do everything in ES6.
   - [ ] a `getPension` method that adds 2 to the salaryman's wallet
   - [ ] a  `gamble` method that subtracts 2 from the salaryman's wallet
 
+## Advanced Requirements
 
-
+- [ ] Write tests to refactor this into 
