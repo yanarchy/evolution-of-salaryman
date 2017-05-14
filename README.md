@@ -1,5 +1,6 @@
 # Evolution of a Salaryman
 
+![](http://www.japanitup.com/wp-content/uploads/Japanese-Office-Ladies-and-Salary-Men.jpg)
 ## Introduction
 
 Today we will be having fun with ES6 classes while following the lifecycle of the salaryman in detail. You'll create many salarymen today, practicing ES6 instantiation pattern and inheritance.
