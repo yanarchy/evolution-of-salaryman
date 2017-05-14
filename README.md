@@ -92,4 +92,4 @@ Please do everything in ES6.
 
 ## Advanced Requirements
 
-- [ ] Write tests to refactor this into 
+- [ ] Write tests to refactor this to use prototypes
