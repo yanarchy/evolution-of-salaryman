@@ -92,4 +92,8 @@ Please do everything in ES6.
 
 ## Advanced Requirements
 
+- [ ] Make new src files for each type of person
+- [ ] Make corresponding spec files for each type of person
+- [ ] Link them to `MochaChaiTestRunner.html`
 - [ ] Write tests to refactor this to use prototypes
+- [ ] Refactor Student, Shinsotsu, BossSalaryMan, WorkerSalaryMan, and RetiredWorkerSalaryMan to use prototypes instead of ES6 classes
