@@ -12,10 +12,14 @@ All salarymen begin as fresh students, ready for life as a worker!
 
 Then they progress to new grads and are eventually made either bosses or workers. After a few years, they retire.
 
-Student -> Shinsotsu
-            -> BossSalaryMan
-            -> WorkerSalaryMan
-                -> RetiredWorkerSalaryMan
+* Student
+  * Shinsotsu
+    * BossSalaryMan
+    * WorkerSalaryMan
+      * RetiredWorkerSalaryMan
+
+Better picture of structure---
+![](es6-structure.png)
 
 ## Resources
 * [Exploring ES6](http://exploringjs.com/es6/ch_classes.html)
